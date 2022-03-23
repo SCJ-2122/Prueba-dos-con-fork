@@ -72,5 +72,18 @@ namespace Prueba_fork
         {
             leerVector(vectorA);
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            double media;
+            string texto;
+
+
+            media = mediaVector(vectorA);
+            texto = mostrarVector(vectorA);
+
+            MessageBox.Show(texto + "\n" + "La media del vector es: \n" + media);
+            
+        }
     }
 }
